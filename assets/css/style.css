@@ -1,0 +1,287 @@
+@font-face {
+    font-family: Averta;
+    src: url(../fonts/averta/AvertaDemoPECuttedDemo-Regular.otf);
+    src: url(../fonts/averta/AvertaDemo-Regular.otf);
+}
+
+body{
+    background-image: url("../img/bgdd.JPG");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    font-family: 'Averta', sans-serif;
+    font-weight: lighter;
+}
+.logo{
+    width: 20%;
+}
+
+.navbar-brand{
+    width: 100px;
+    object-fit: contain;
+
+}
+.navigation-links{
+    width: 100%;
+}
+.navigation{
+    padding: 10px 70px;
+}
+.navigation .nav-item{
+    margin:8px 20px;
+}
+.navigation .nav-item .nav-link{
+    color: white;
+    font-size: 14px;
+}.navigation .nav-item .nav-link:hover{
+    color: white;
+}
+.navigation .nav-item .nav-link:active{
+    color: white;
+    font-size: 14px;
+}.navigation .nav-item .nav-link.styled{
+    border: 1px solid white;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border-radius: 15px ;
+}
+.navigation .nav-item .nav-link.styled:focus, .navigation .nav-item .nav-link.styled:hover {
+    box-shadow: none;
+    color: white;
+    outline: none;
+    background: linear-gradient(rgb(143, 101, 215), rgb(192, 98, 205));
+    border-color:rgb(143, 101, 215);
+}
+
+.hero-textContainer{
+    display: inline-block;
+    width: 52%;
+    margin: 0 !important;
+    padding: 50px 60px ;
+}
+.slideContainer{
+    display: inline-block ;
+    width: 48%;
+    margin: 0 !important;
+    padding: 0;
+}
+.hero{
+    display: flex;
+}
+
+ .hero{
+    padding-top: 100px;
+ }
+ .hero-text{
+     width: 90%;
+ }
+ .hero-text .title{
+     font-size: 30px;
+     line-height: 50px;
+     letter-spacing: 0.9px;
+ }
+ .hero-text .sideline{
+     font-weight: bold;
+     text-transform: uppercase;
+     color: #ababab;
+ }
+
+ .input-box{
+     margin: 50px 0;
+ }
+
+ .form-input{
+     background: white;
+     padding: 5px;
+     position: relative;
+     border: 1px solid transparent;
+     box-shadow: 0 4px 25px 0 rgba(0,0,0,.1);
+     border-radius: 20px;
+ }
+ .form-input .form-control{
+     background: none;
+     border: none;
+     font-size: 14px;
+     padding: 7px 20px;
+     display: inline-block;
+     width: 78%;
+ }
+.form-input .form-control:focus{
+    outline: none !important;
+     border: none;
+    box-shadow: none;
+ }
+.form-control:focus .form-input{
+     border-color: rgb(143, 101, 215);
+ }
+
+.form-input .submit-btn{
+    border-radius: 20px;
+    background: linear-gradient(rgb(143, 101, 215), rgb(192, 98, 205));
+    padding: 5px 20px;
+    border: none;
+    width: 20%;
+    font-size: 14px;
+}
+
+.form-input .submit-btn:hover{
+    background: linear-gradient(rgb(93, 67, 141), rgb(120, 65, 129));
+}
+
+.slide-section{
+    padding:60px 0 0 50px;
+}
+
+.slide-section .slide-box{
+    transition: .5s ease ;
+    width: 200px;
+    position: relative;
+    box-shadow: 0 0 4px  2px  rgba(0,0,0,.1);
+
+    height: 250px;
+    background: white;
+    margin:10px 0 10px 37px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+
+.styledBox::before{
+    content: '';
+    background: white;
+    width: 50px;
+    height: 210px;
+    opacity: .9;
+    box-shadow: 0 0 4px  2px  rgba(0,0,0,.1);
+    border-radius: 10px;
+    z-index: -1;
+    position: absolute;
+    top:16px;
+    left: -19px;
+}
+.styledBox::after{
+    content: '';
+    background: rgba(255, 255, 255, 0.9);
+    width: 50px;
+    z-index: -2;
+    border-radius: 10px;
+    height: 160px;
+    opacity: .7;
+    position: absolute;
+    top:37px;
+    left: -37px;
+}
+
+.slider-controls{
+    float: right;
+    margin-right: 100px;
+}
+.slider-controls button i{
+    padding:  10px 6px;
+}
+.slider-controls button{
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.4);
+    border: none;
+    transition: .5s ease .2s;
+    border-radius: 50%;
+    margin: 5px;
+}
+.slider-controls button:focus{
+    outline: none;
+    border: none;
+}
+.slider-controls button:hover{
+    transform: translateY(2.5px);
+}
+
+.slider-controls button.owl-next{
+    color: white;
+    background: linear-gradient(rgb(143, 101, 215), rgb(192, 98, 205));
+}
+.slider-controls button.owl-next:hover{
+    background: linear-gradient(rgb(93, 67, 141), rgb(120, 65, 129));
+}
+
+.slider-controls button.owl-prev{
+    color: rgb(192, 98, 205);
+    background: white;
+}
+
+.box-title{
+    padding: 30px 0 20px 0;
+    text-align: center;
+}
+.box-title .title{
+    display: inline;
+}
+
+.box-title .title-lan{
+    margin: 0 10px;
+    padding: 2px 15px;
+    border-radius: 10px;
+    font-size: 32px;
+    padding-bottom: 5px;
+    color: white;
+}
+.blue.slide-box .box-title .title-lan{
+    background: linear-gradient(rgb(0, 180, 225), rgb(0, 252, 225));
+}
+.yellow.slide-box .box-title .title-lan{
+    background: linear-gradient(rgb(225, 190, 54), rgb(255, 180, 41));
+}
+.red.slide-box .box-title .title-lan{
+    background: linear-gradient(rgba(255, 49, 51, 0.5), rgba(203, 106, 112, 0.5));
+}
+
+
+.box-text{
+    padding:0 15px;
+}
+.box-text p{
+    font-size: 12px;
+}
+.slide-box .link{
+ padding: 0 10px;
+}
+.slide-box .link a{
+    font-size: 13px;
+    color: black;
+    float: right;
+}
+.styled-nav{
+    float: right ;
+}
+
+
+@media screen and (max-width: 600px) {
+   .slideContainer{
+       width: 100% !important;
+       margin: 0;
+   }
+
+    .hero-textContainer{
+        width: 100% !important;
+        margin: 0;
+    }
+
+
+    .hero{
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .hero-textContainer{
+        padding: 20px;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+    .form-input .submit-btn {
+        width: 28%;
+    }
+
+    .form-input .form-control {
+        width: 70%;
+    }
+}
