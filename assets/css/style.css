@@ -4,15 +4,25 @@
     src: url(../fonts/averta/AvertaDemo-Regular.otf);
 }
 
+html{
+
+}
+
 body{
-    background-image: url("../img/bgdd.JPG");
-    background-size:cover ;
-    background-repeat: no-repeat;
     font-family: 'Averta', sans-serif;
+    background:  linear-gradient(135deg, #f6f7f5, #f7f4f5);
     font-weight: lighter;
+    background-size: cover;
 }
 .logo{
-    width: 20%;
+    width: 10%;
+}
+
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 20px;
 }
 
 .navbar-brand{
@@ -66,6 +76,11 @@ body{
 }
 .hero{
     display: flex;
+    background-image: url("../img/bgdd.JPG");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    padding-bottom: 50px;
+
 }
 
  .hero{
@@ -283,5 +298,16 @@ body{
 
     .form-input .form-control {
         width: 70%;
+    }
+
+    .submit-btn i{
+        display: none;
+    }
+
+
+    .logo{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 15%;
     }
 }
