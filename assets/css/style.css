@@ -13,6 +13,7 @@ body{
     background:  linear-gradient(135deg, #f6f7f5, #f7f4f5);
     font-weight: lighter;
     background-size: cover;
+    height: 100vh;
 }
 .logo{
     width: 15%;
